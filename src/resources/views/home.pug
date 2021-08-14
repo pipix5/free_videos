@@ -1,0 +1,9 @@
+h1 This is Home Page
+
+	if videos
+		each video in videos
+			h3= video.name
+			p= video.description
+			img(src=video.image)
+	else
+		h2 Nothing here
